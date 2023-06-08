@@ -556,4 +556,6 @@ footer {
 .fb_iframe_widget span,
 .fb_iframe_widget span iframe[style] {
     width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
 }
