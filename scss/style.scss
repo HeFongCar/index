@@ -550,3 +550,10 @@ footer {
         margin-top: 6%;
     }
 }
+
+// fb 貼文
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
