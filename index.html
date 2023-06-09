@@ -9,8 +9,12 @@
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="-1">
-    <meta name="title" content="合峰 HE FONG">
-    <title>合峰 | HE FONG</title>
+    <meta name="title" content="合峰 - HE FONG">
+    <title>合峰 - HE FONG</title>
+    <meta property="og:title" content="合峰 - HE FONG">
+    <meta property="og:description"
+        content="本廠位於桃園市觀音工業區，總占地面積約2000坪，設有小型件施工區、大型車廂施工區、噴漆區、辦公室及會議室；本廠於2019完成車輛安全審驗中心申請登錄(VSCC)。">
+    <meta property="og:url" content="https://hefongcar.github.io/index/">
     <link rel="icon" href="img/icon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
@@ -27,6 +31,8 @@
 </head>
 
 <body>
+    <div id="fb-root" class="d-none"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v17.0&appId=463541450391596&autoLogAppEvents=1" nonce="pqOfCXxW"></script>
     <header>
         <div class="-header">
             <div class="main">
@@ -226,10 +232,11 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6">
                 <div class="-content" data-aos="zoom-in" data-aos-easing="linear" data-aos-delay="500">
-                <iframe
-                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhefong0521%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=370778836745838"
-                    width="300" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
-                    allow="encrypted-media"></iframe>
+                    <div class="fb-page" data-href="https://www.facebook.com/hefong0521/" data-tabs="timeline" data-width="" data-height=""
+                        data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/hefong0521/" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/hefong0521/">合峰 hefong</a></blockquote>
+                    </div>
                 </div>
             </div>
         </div>
@@ -249,6 +256,17 @@
     <div class="top-btn" id="back-to-top">
         <i class="fas fa-chevron-circle-up"></i>
     </div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '370778836745838',
+                xfbml: true,
+                version: 'v17.0'
+            });
+
+            FB.XFBML.parse();
+        };
+    </script>
 </body>
 
 </html>
